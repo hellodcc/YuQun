@@ -11,6 +11,7 @@
 @implementation BlueLab
 //zheshigeceshi
 
+//nihaonihao
 -(instancetype)init
 {
     self=[super init];
