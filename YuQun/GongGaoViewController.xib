@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GongGaoViewController">
+            <connections>
+                <outlet property="gongGaoTv" destination="r79-gg-R9q" id="vQb-F8-QaH"/>
+                <outlet property="noGongGaoLab" destination="SqL-nf-mkt" id="0kX-zl-nZm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="r79-gg-R9q">
+                    <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您暂时还没有消息通知哦！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SqL-nf-mkt">
+                    <rect key="frame" x="28" y="79" width="318" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="T2i-HV-8bT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="r79-gg-R9q" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="LxY-of-9BU"/>
+                <constraint firstAttribute="trailing" secondItem="SqL-nf-mkt" secondAttribute="trailing" constant="29" id="WHK-6w-So2"/>
+                <constraint firstAttribute="bottom" secondItem="r79-gg-R9q" secondAttribute="bottom" id="YpY-Ib-XYa"/>
+                <constraint firstItem="SqL-nf-mkt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="28" id="cez-LE-jVt"/>
+                <constraint firstAttribute="trailing" secondItem="r79-gg-R9q" secondAttribute="trailing" id="jce-M0-KTt"/>
+                <constraint firstItem="r79-gg-R9q" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="tGi-Qd-hKL"/>
+                <constraint firstItem="SqL-nf-mkt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="79" id="wFR-ES-99v"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="318.5" y="311.5"/>
+        </view>
+    </objects>
+</document>
