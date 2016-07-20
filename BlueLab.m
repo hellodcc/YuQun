@@ -9,9 +9,8 @@
 #import "BlueLab.h"
 #import "AHeader.h"
 @implementation BlueLab
-//zheshigeceshi
 
-//ni
+
 -(instancetype)init
 {
     self=[super init];
