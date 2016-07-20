@@ -9,7 +9,7 @@
 #import "BlueLab.h"
 #import "AHeader.h"
 @implementation BlueLab
-
+//ni
 
 -(instancetype)init
 {
